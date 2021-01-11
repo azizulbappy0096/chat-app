@@ -1,0 +1,27 @@
+.inputBox {
+    width: inherit;
+    display: flex;
+    border-top: 0.1px solid rgb(165, 165, 165);
+    border-radius: 4px;
+    overflow: hidden;
+    z-index: 10;
+}
+
+.inputBox > input {
+    flex: 0.9;
+    padding: 12px 8px;
+    border: none;
+}
+
+.inputBox > input:focus, .inputBox__send:focus {
+    outline: none;
+}
+
+.inputBox__send {
+    flex: 0.1;
+    cursor: pointer;
+    border: none;
+    background-color: #2979ff;
+    color: white;
+    border-top: none;
+}

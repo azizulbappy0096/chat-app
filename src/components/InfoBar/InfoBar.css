@@ -1,0 +1,28 @@
+.infoBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: inherit;
+    background-color: #2979ff;
+    padding: 16px 12px;
+    border-radius: 4px;
+    z-index: 10;
+}
+
+.infoBar__room {
+    display: flex;
+    align-items: center;
+}
+
+.infoBar__room > .MuiSvgIcon-root, .chat__right div > p > .MuiSvgIcon-root {
+    color: rgb(16, 175, 16);
+    font-size: 14px;
+    margin-right: 8px;
+}
+
+.infoBar__close > a > .MuiSvgIcon-root {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    margin-right: 8px;
+    cursor: pointer;
+}

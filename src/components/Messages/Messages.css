@@ -1,0 +1,33 @@
+.Messages {
+  background-color: #ffffff;
+  margin: -10px 0;
+  padding: 20px 0px;
+  overflow-y: auto;
+  /* border: 0.01px solid rgb(44, 43, 43); */
+}
+
+.react-scroll-to-bottom--css-iczan-1n7m0yu
+  > .react-scroll-to-bottom--css-vjyks-1tj0vk3 {
+  bottom: 10px !important;
+  position: absolute !important;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 2px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

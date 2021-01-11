@@ -1,0 +1,46 @@
+.chat {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(44, 43, 43);
+}
+
+.chat__container {
+  width: 80vw;
+  height: 60vh;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.chat__left {
+  flex: 0.6;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  height: inherit;
+
+}
+
+.chat__right > h4, .chat__right > h1, .chat__right > h3 {
+    color: #ffffff;
+}
+.chat__right div {
+    overflow-y: auto;
+    height: 40vh;
+}
+
+.chat__right div > p {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+@media (max-width: 1024px) {
+    .chat__left {
+        flex: 1;
+    }
+    .chat__right {
+        display: none;
+    }
+}
